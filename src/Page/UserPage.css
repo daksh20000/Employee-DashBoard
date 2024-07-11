@@ -1,0 +1,24 @@
+.user-details {
+    padding: 20px;
+    background: rgba(103, 175, 238, 0.497);
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+
+margin: 20px auto;
+    text-align: left;
+    color: rgba(117, 36, 188, 0.644);
+
+}
+
+.user-details h2 {
+    margin-bottom: 20px;
+}
+
+.user-details div {
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight:600;
+
+}

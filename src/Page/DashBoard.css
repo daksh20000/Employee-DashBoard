@@ -1,0 +1,87 @@
+
+.dashboard{
+    background-color: rgba(25, 126, 213, 0.1);
+    margin: 3%;
+    margin-bottom: 6%;
+    border-radius: 10px;
+    
+    padding: 2%;
+}
+.search{
+    display: flex;
+    gap: 2vw;
+}
+.search button{
+    border-radius:6px ;
+    outline: none;
+    cursor:pointer;
+    background-color: rgb(11, 137, 255);
+    color: aliceblue;
+    height: 40px;
+    padding: 5px;
+    font-size:larger;
+    border: none;
+}
+.search button:active{
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.heading{
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 5vh 0 2vh 0;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.heading img{
+    height: 5vh;
+    
+}
+
+.data-display{
+    margin: 2% auto;
+    
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.single-card{
+    margin: 1%;
+    border:2px solid rgb(52, 75, 177);
+    border-radius: 15px;
+    padding: 15px;
+    width: 15%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.name-id{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-weight: 600;
+}
+.id{
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px;
+}
+.changes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+.delete{
+    height: 3vh;
+    
+}
+.edit{
+    height: 3vh;
+    
+}
