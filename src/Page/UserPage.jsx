@@ -13,19 +13,22 @@ const UserPage = () => {
         .catch(error => console.error('Error fetching user data:', error))
     },[id]);
 
-    if (!userData) {
-        return <div>Loading...</div>
-    }
+    if(!userData){
+        return <div>Loading...</div>}
 
     return (
-    <div className='user-details'>
-    <h2>User Details</h2>
-      <div>Name: {userData.employee_name}</div>
-      <div>Age: {userData.employee_age}</div>
-      <div>Salary: {userData.employee_salary}</div>
-      <div>ID: {userData.id}</div>
-    </div>
-    );
-};
+
+        <div className='user-details'>
+        <h2>User Details</h2>
+          <div>Name: {userData.employee_name}</div>
+
+          <div>Age: {userData.employee_age}</div>
+            <div>Salary: {userData.employee_salary}</div>
+          <div>ID: {userData.id}</div>
+        </div>
+      )
+
+
+}
 
 export default UserPage;
