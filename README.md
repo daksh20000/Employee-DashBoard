@@ -1,3 +1,5 @@
+**NOTE**
+*The API used is too fragile to handle multiple request (error code 429(Too many Requests)), please be patient or try seeing console for errors*
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
